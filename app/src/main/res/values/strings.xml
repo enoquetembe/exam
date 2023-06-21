@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EnoqueExame</string>
+    <string name="id">ID</string>
+    <string name="nome">Nome</string>
+    <string name="bi">BI</string>
+    <string name="morada">Morada</string>
+    <string name="examesCategoria">Categoria de carta</string>
+    <string name="examesTipos">Tipo de exame</string>
+    <string name="examesPraticos">Praticos</string>
+    <string name="examesTeoricos">Teoricos</string>
+    <string name="examesPesados">Pesados</string>
+    <string name="examesLigeiros">Ligeiros</string>
+    <string name="salvar">Salvar</string>
+    <string name="listar">Listar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="idade">Idade</string>
+    <string name="contacto">Contacto</string>
+</resources>
