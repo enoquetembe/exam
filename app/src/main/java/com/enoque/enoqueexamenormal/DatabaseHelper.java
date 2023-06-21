@@ -127,11 +127,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
 
-    public void delete(Double id) {
+    public void delete(String name) {
         SQLiteDatabase db = getWritableDatabase();
 
-        String whereClause = "id = ?";
-        String[] whereArgs = {String.valueOf(id)};
+        String whereClause = "name = ?";
+        String[] whereArgs = { name };
         db.delete(TABLE_CANDIDATE, whereClause, whereArgs);
     }
 

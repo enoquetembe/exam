@@ -35,8 +35,8 @@ public class ListCandidates extends AppCompatActivity {
         binding.lvCandiates.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                databaseHelper.delete(candidates.get(i).getId());
-                Toast.makeText(ListCandidates.this, "Deletado com sucesso", Toast.LENGTH_SHORT).show();
+                databaseHelper.delete(candidates.get(i).getName());
+                Toast.makeText(ListCandidates.this, "Deletado com sucesso", Toast.LENGTH_LONG).show();
                 return true;
             }
         });
